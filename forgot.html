@@ -1,0 +1,28 @@
+<html>
+
+<link rel="stylesheet" href="captcha.css">
+<link rel="stylesheet" href=
+"https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity=
+"sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+        crossorigin="anonymous">
+<script src="captcha.js"></script>
+<body onload="genrate()"><center>
+<div class="container" onload="generate()">
+<h2><u>Forgot Password</h2></u>
+<p><u>Please Enter Deatils</p></u><form>
+<input type="tel" placeholder="phone Number" required pattern="[0-9]{5}[0-9]{5}">
+<div id="user-input" class="inline">
+        <input type="text" id="submit"
+            placeholder="Captcha code" />
+    </div><br>
+    <div id="image" class="inline" selectable="False">
+    </div><br>
+	<div class="inline" onclick="generate()">
+        <i class="fas fa-sync"></i>
+    </div><br>
+    <input class="submit" type="submit" value="Submit" id="btn" onclick="printmsg()">
+    <p id="key"></p>
+</form></center>
+</body>
+</html>
