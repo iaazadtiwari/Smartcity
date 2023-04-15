@@ -1,0 +1,54 @@
+#image{
+	background-color:white;
+    margin-top: -25px;
+    width: 60px;
+    padding: 5px;
+    
+    padding-bottom: 5px;
+    height: 20px;
+    user-select: none;
+    text-decoration:line-through;
+    font-style: italic;
+   
+     
+}
+#user-input{
+    width:auto;
+    padding: 10px;
+    height: 40px;
+      
+}
+.submit{
+	margin-top: -20px;
+    
+}
+i{
+	align-items:centre;
+}
+.inline{
+    display:inline-block;
+}
+#btn{
+    
+    color:white;
+    margin: 10px;
+    background-color:blue;
+}
+p{
+color:black;
+size:20;
+font-family:"lucinda Console";
+margin-top: -25px;
+}	
+body{
+background:url(datacity3.gif);
+background-repeat:no-repeat;
+background-size:cover;
+}
+.container{
+width:300px;
+height:270px;
+background-color:silver;
+border-radius:10px;
+margin:auto;
+}
